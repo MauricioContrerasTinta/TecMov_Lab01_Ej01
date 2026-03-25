@@ -12,10 +12,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvResultado: TextView
     private lateinit var btnConvertir: Button
 
-    // Tasas respecto al USD
     private val tasas = mapOf(
         "USD" to 1.0,
-        "PEN" to 3.7,
+        "PEN" to 3.5,
         "EUR" to 0.92,
         "GBP" to 0.78,
         "INR" to 83.0,
